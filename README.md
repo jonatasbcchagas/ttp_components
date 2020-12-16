@@ -1,4 +1,4 @@
-# Optimal solutions to the components (TSP and KP) of the Traveling Thief Problem
+# Optimal solutions to the components (TSP and KP) of the Traveling Thief Problem (TTP)
 
 This repository contains implementation of exact approaches for solving the two problems (Traveling Salesperson Problem - TSP, and Knapsack Problem - KP) that compose the [Traveling Thief Problem](https://cs.adelaide.edu.au/~optlog/research/combinatorial.php), a pretty nice multicomponent problem. The solution approaches are built from well-known and efficient strategies for each problem. In the following, the strategies used for solving each problem are listed.
 
