@@ -1,0 +1,13 @@
+WARNING: Large edge lengths in sparse graph
+Default Edge Length: 8388607
+CCtsp_solve_dat ...
+Set initial upperbound to 153059 (from tour)
+infeas_recover ...
+phase 1 addbad_variables
+LP is now feasible
+Recovered a feasible LP
+Exact lower bound: 153059.000000
+DIFF: 0.000000
+Established Bound: 153059
+Optimal tour: 153059
+Total Time to solve TSP: 13.89

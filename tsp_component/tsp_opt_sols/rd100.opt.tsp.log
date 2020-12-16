@@ -1,0 +1,12 @@
+Default Edge Length: 133500
+CCtsp_solve_dat ...
+Set initial upperbound to 7958 (from tour)
+infeas_recover ...
+phase 1 addbad_variables
+LP is now feasible
+Recovered a feasible LP
+Exact lower bound: 7958.000000
+DIFF: 0.000000
+Established Bound: 7958
+Optimal tour: 7958
+Total Time to solve TSP: 0.07

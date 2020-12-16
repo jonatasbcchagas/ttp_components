@@ -1,0 +1,16 @@
+Default Edge Length: 2081040
+CCtsp_solve_dat ...
+Set initial upperbound to 48279 (from tour)
+Exact lower bound: 48276.871634
+DIFF: 0.000000
+LOWER BOUND: 48276.871634   ACTIVE NODES: 1
+
+Task 0: Branching on node 0
+BBnode 0 split into 1 (48279.00X) 2 (48301.00X) (0.11 seconds)
+Child 0 is pruned
+Child 1 is pruned
+
+Task 1: Exit
+Total number of nodes in search tree: 3
+Optimal tour: 48279
+Total Time to solve TSP: 2.32

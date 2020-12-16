@@ -1,0 +1,29 @@
+WARNING: Large edge lengths in sparse graph
+Default Edge Length: 8388607
+CCtsp_solve_dat ...
+Set initial upperbound to 66050599 (from tour)
+WARNING: Adding an empty cut to the LP
+WARNING: Adding an empty cut to the LP
+infeas_recover ...
+phase 1 addbad_variables
+LP is now feasible
+Recovered a feasible LP
+WARNING: Adding an empty cut to the LP
+WARNING: Adding an empty cut to the LP
+WARNING: Adding an empty cut to the LP
+WARNING: Adding an empty cut to the LP
+WARNING: Adding an empty cut to the LP
+infeas_recover ...
+phase 1 addbad_variables
+LP is now feasible
+Recovered a feasible LP
+infeas_recover ...
+phase 1 addbad_variables
+LP is now feasible
+Recovered a feasible LP
+WARNING: Adding an empty cut to the LP
+WARNING: Adding an empty cut to the LP
+infeas_recover ...
+phase 1 addbad_variables
+LP is now feasible
+Recovered a feasible LP

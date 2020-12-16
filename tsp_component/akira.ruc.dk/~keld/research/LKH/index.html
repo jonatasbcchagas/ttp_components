@@ -1,0 +1,252 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+<meta name="generator" content="Adobe GoLive 4">
+<title>LKH (Keld Helsgaun)</title>
+<link href="CSS/a_tag_effects.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+body, td, th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+a:link {
+	text-decoration: none;
+	color: #000099;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #990000;
+}
+a:active {
+	text-decoration: none;
+}
+.style2 {
+	color: #CC0000;
+	font-weight: bold;
+}
+.style3 {
+	font-family: "Courier New", Courier, monospace
+}
+.style6 {
+	font-size: small
+}
+.style8 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: medium;
+}
+.style9 {
+	font-size: medium
+}
+-->
+</style>
+</head>
+<body bgcolor="white">
+<blockquote>
+  <center>
+    <p><span class="style2"><font size="7">LKH<br>
+      </font></span><b>Version 2.0.9 </b><strong>(July 2018)</strong><br>
+    </p>
+  </center>
+  </p>
+  <p>
+    <center>
+      <a href="dk11455.tsp"><img src="dk11455.png" width="395" height="335" alt="Denmark image"></a>
+    </center>
+  </p>
+  <p>LKH is an effective implementation of the Lin-Kernighan heuristic for solving the traveling salesman problem.</p>
+  <p>Computational experiments have shown that LKH is highly effective. Even though the algorithm is approximate, optimal solutions are produced with an impressively high frequency. LKH has produced optimal solutions for all solved problems we have been able to obtain; including a 109399-city instance (at the time of writing, the largest nontrivial instance solved to optimality). Furthermore, the algorithm has improved the best known solutions for a series of large-scale instances with unknown optima, among these a 1,904,711-city instance (<a href="http://www.tsp.gatech.edu/world/">World TSP</a>).</p>
+  <p>The <a href="http://dimacs.rutgers.edu/Challenges/TSP/">DIMACS TSP Challenge</a> (2000) provided many benchmark instances. Their sizes range from 1,000 to 10,000,000 cities. LKH currently holds the record for all instances with unknown optima. The lengths of the current best tours are tabulated <a href="DIMACS_results.html">here</a>.</p>
+  <p>David Soler has provided <a href="http://www.iumpa.upv.es/arxivDSoler/">126 asymmetric  instances</a> with known optima. LKH's performance on these instances is reported <a href="Soler_results.html">here</a>.. </p>
+  <p>Stefan Hougardy and Xianghui Zhong have provided <a href="https://arxiv.org/pdf/1808.02859.pdf"><em>hard to solve instances of the Euclidean traveling salesman problem</em></a>.  Instances of this type with up to 100,000 cites may be downloaded <a href="Tnm_instances.tgz"><em>here</em></a>. The best LKH solutions are tabulated <a href="Best LKH solutions for Tnm instances.pdf"><em>here</em></a>.</p>
+  <p>LKH has been described in the reports </p>
+  <blockquote>
+    <p>K. Helsgaun,<br>
+      <a href="LKH-2.0/DOC/LKH_REPORT.pdf"><em>An Effective Implementation of the Lin-Kernighan Traveling Salesman Heuristic</em></a>.<br>
+      <em>DATALOGISKE SKRIFTER</em> (<em>Writings on Computer Science</em>), No. 81, 1998,<br>
+      Roskilde University.</p>
+    <p>K. Helsgaun,<br>
+      <a href="KoptReport.pdf"><em>An Effective Implementation of K-opt Moves for the Lin-Kernighan TSP Heuristic</em></a>.<br>
+      <em>DATALOGISKE SKRIFTER</em> (<em>Writings on Computer Science</em>), No. 109, 2006,<br>
+      Roskilde University (Revised November 2007).</p>
+    <p>K. Helsgaun,<br>
+      <em><a href="LKH-3_REPORT.pdf">An Extension of the Lin-Kernighan-Helsgaun TSP Solver for Constrained Traveling <br>
+    Salesman and Vehicle Routing Problems</a></em>.<br>
+    Technical Report, Computer Science, Roskilde University, 2017.</p>
+    <p>K. Helsgaun,<br>
+      <em><a href="POPMUSIC_REPORT.pdf">Using POPMUSIC for Candidate Set Generation in the Lin-Kernighan-Helsgaun TSP Solver</a></em>.<br>
+      Technical Report, Computer Science, Roskilde University, 2018.<br>
+    </p>
+  </blockquote>
+  <p>and in the papers</p>
+  <blockquote>
+    <p>K. Helsgaun,<br>
+      <em><a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221799002842">An Effective Implementation of the Lin-Kernighan Traveling Salesman Heuristic</a></em><a href="http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6VCT-40TY2N6-8&_user=10&_coverDate=10%2F01%2F2000&_alid=948988249&_rdoc=1&_fmt=high&_orig=search&_cdi=5963&_sort=r&_docanchor=&view=c&_ct=1&_acct=C000050221&_version=1&_urlVersion=0&_userid=10&md5=28a8f4dad33f95d735798230b94adb48">.</a><br>
+      <em>European Journal of Operational Research,</em> 126(1):106-130 (2000).</p>
+    <p>K. Helsgaun,<br>
+      <a href="http://www.springerlink.com/content/w3t1167655522443/"><em>General k-opt submoves for the Lin-Kernighan TSP heuristic</em></a>.<br>
+    <em>Mathematical Programming Computation, </em>1(2-3):119-163 (2009).</p>
+    <p>&Eacute;. D. Taillard and K. Helsgaun,<br />
+      <em><a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221718305745">POPMUSIC for the Travelling Salesman Problem</a></em>.<br />
+      <em>European Journal of Operational Research</em>, In Press (2018).<br>
+    </p>
+    <p>R. Tin&oacute;s, K. Helsgaun, and D. Whitley,<br>
+      <em><a href="https://link.springer.com/chapter/10.1007/978-3-319-99253-2_8">Efficient Recombination in the Lin-Kernighan-Helsgaun Traveling Salesman Heuristic</a></em>.<br>
+      PPSN XV,  Proceedings I, pp. 95-107 (2018).<br>
+    </p>
+  </blockquote>
+  <p>A list of scientific applications of LKH may be seen <a href="ScientificApplications.html">here</a>.</p>
+  <p><b>Installation</b></p>
+  <p>LKH has been implemented in the programming language C. The software is entirely written in ANSI C and portable across a number of computer platforms and C compilers.</p>
+  <p>The code can be downloaded here: <a href="LKH-2.0.9.tgz">LKH-2.0.9.tgz</a> (gzipped tar file, approximately 1.5 MB). <br>
+    <br>
+    On a Unix/Linux machine execute the following commands: </p>
+  <blockquote>
+    <p>tar xvfz LKH-2.0.9.tgz<br>
+      cd LKH-2.0.9<br>
+      make</p>
+  </blockquote>
+  <p>An executable file called LKH will now be available in the directory LKH-2.0.9. </p>
+  <p>A stand-alone executable for Windows machines may be downloaded <a href="LKH-2.exe">here</a>. A Visual Studio 2019 project  is available <a href="LKHWin-2.0.9.zip">here.</a> Another possibility is to build an executable using <a href="http://cygwin.com/">Cygwin</a> (a Linux-like environment for Windows).</p>
+  <p>The code is distributed for academic and non-commercial use. The author reserves all rights to the code.</p>
+  <p><strong>LKH-3</strong>, an extension of LKH-2 for solving constrained traveling salesman and vehicle routing problems, is available <a href="../LKH-3">here</a>. <img src="new.gif" width="28" height="11" alt=""/></p>
+  <p><b>CHANGES IN LKH-2.0.9:</b></p>
+  <p>Candidate sets may now be created by means of POPMUSIC by giving the following specification in the parameter file for LKH:</p>
+  <blockquote>
+    <p class="style3"><span class="style9"><font align="left"> CANDIDATE_SET_TYPE = POPMUSIC</font></span></p>
+  </blockquote>
+  <p>The value of the parameter <span class="style3">MAX_CANDIDATES</span> is used to trim the candidate set. There are, however, some other POPMUSIC related parameters. If not specified, they will take their default values. These parameters are:</p>
+  <blockquote>
+    <p> <span class="style3">POPMUSIC_SAMPLE_SIZE =</span> &lt;int&gt; &nbsp;<br>
+      Sample size.<br>
+      Default: 10</p>
+    <p> <span class="style3">POPMUSIC_SOLUTIONS =</span> &lt;int&gt;&nbsp;<br>
+      Number of solutions to generate.<br>
+      Default: 50</p>
+    <p> <span class="style3">POPMUSIC_MAX_NEIGHBORS =</span> &lt;int&gt;<br>
+      Maximum number of nearest neighbors used as candidates in iterated 3-opt for<br>
+      POPMUSIC.<br>
+      Default: 5</p>
+    <p> <span class="style3">POPMUSIC_TRIALS = </span>&lt;int&gt;<br>
+      Number of trials used in iterated 3-opt for POPMUSIC. If the value is zero, the number of trials is the size of the subpath to be optimized.<br>
+      Default: 1</p>
+    <p><span class="style3">POPMUSIC_INITIAL_TOUR = </span>{<span class="style3"> YES </span>|<span class="style3"> NO </span>}<br>
+Specifies whether the first generated POPMUSIC tour is used as initial tour for Lin-Kernighan.<br>
+Default: <span class="style3">NO</span></p>
+  </blockquote>
+  <p><b>CHANGES IN VERSION 2.0.8:</b></p>
+  <p>Tours may now be recombined by GPX2 (Generalized Partition Crossover 2)  instead of IPT (Iterative Partial Transcription). </p>
+  <p>GPX2 is used by giving the following specification in the parameter file:</p>
+  <blockquote>
+    <p class="style3"><span class="style9"><font align="left"> RECOMBINATION = GPX2</font></span></p>
+  </blockquote>
+  <p>The possible settings are:</p>
+  <blockquote>
+    <p class="style3"><span class="style9"><font align="left"> RECOMBINATION = </font></span><font align="left">{</font> <font align="left">IPT</font><font align="left"> |</font><font align="left"><span class="style9"> GPX2 </span>}</font></font></span> </p>
+  </blockquote>
+  <p>IPT is default. </p>
+  <p>The GPX2 code has been written by Renato Tin&oacute;s and adapted for LKH by Keld Helsgaun.</p>
+  <p>New edge weight types:</p>
+  <blockquote>
+    <p class="style3">FLOOR_2D<br>
+      FLOOR_3D <br>
+      TOR_2D<br>
+      TOR_3D</p>
+  </blockquote>
+  <p><b>CHANGES IN VERSION 2.0.7:</b></p>
+  <p>Added an approximate K-center clustering algorithm for tour partitioning (new keyword: <span class="style8">K-CENTER)</span>. Improved performance on HCP and HPP instances.</p>
+  <p><b>CHANGES IN VERSION 2.0.6:</b></p>
+  <p>The replacement strategy (CD/RW) proposed by Lozano, Herrera and Cano for preserving useful diversity in steady-state genetic algorithms has been added.</p>
+  <p><b>CHANGES IN VERSION 2.0.5:</b></p>
+  <p>Guibas and Stolfi's implementation of Delaunay triangulation has been replaced by a faster implementation made by Geoff Leach. </p>
+  <p><b>CHANGES IN VERSION 2.0.4:</b></p>
+  <p>Added multi-level compression of subproblems (Version 2.0.3 allowed only one level).</p>
+  <p><b>CHANGES IN VERSION 2.0.3:</b></p>
+  <p>A simple genetic algorithm has been added. New keyword: <span class="style8">POPULATION_SIZE</span>. Tours found by the first <span class="style8">POPULATION_SIZE</span> runs constitute an initial population of tours. In each of the remaining runs two tours (parents) from the current population is recombined into a new tour (child) using a variant of the Edge Recombination Crossover (ERX). The parents are chosen with random linear bias towards the best members of the population. The child is used as initial tour for the next run. If this run produces a tour better than the worst tour of the population, then the resulting tour replaces the worst tour. Premature convergence is avoided by requiring that all tours in the population have different costs.</p>
+  <p><b>CHANGES IN VERSION 2.0.2:</b></p>
+  <p>Minor changes in the code for solving subproblems. Added tour construction heuristic based on Moore's space-filling curve. New keyword: <span class="style8">MOORE</span>.</p>
+  <p><b>CHANGES IN VERSION 2.0.1:</b></p>
+  <p>Improved distance caching and faster add/delete testing for <em>k</em>-opt moves. This speeds up the execution by 5-10 percent. </p>
+  <p><b>CHANGES IN VERSION 2.0 (November 2007):</b></p>
+  <p>The new version extends the previous one by data structures and algorithms for solving very large instances, and by facilities for obtaining solutions of even higher quality. Many changes have been made. Below is given a short description of the new features.</p>
+  <p><i>1. General k-opt moves</i></p>
+  <p>One of the most important means in LKH-2 for obtaining high-quality solutions is its use of general<i> k</i>-opt moves. In the original version of the Lin-Kernighan algorithm moves are restricted to those that can be decomposed into a 2- or 3-opt move followed by a (possible empty) sequence of 2-opt moves. This restriction simplifies implementation but it needs not be the best design choice if high-quality solutions are sought. This has been demonstrated with LKH-1, which uses a 5-opt sequential move as the basic move component. LKH-2 takes this idea a step further. Now <i>k</i>-opt moves can be used as sub-moves, where <i>K</i> is any chosen integer greater than or equal to 2 and less than the number of cities. Each sub-move is sequential. However, during the search for such moves, non-sequential moves may also be examined. Thus, in contrast to the original version of the Lin-Kernighan algorithm, non-sequential moves are not just tried as last resort but are integrated into the ordinary search.</p>
+  <p><em>2</em>. <i>Partitioning</i></p>
+  <p>In order to reduce the complexity of solving large-scale problem instances, LKH-2 makes it possible to partition a problem into smaller subproblems. Each subproblem is solved separately and its solution is used (if possible) to improve a given overall tour. Even the solution of small problem instances may sometimes benefit from partitioning as it helps in focusing in the search process. Currently, LKH-2 implements the following five partitioning schemes: Tour segment partitioning, Karp partitioning, Delaunay partitioning, <i>K</i>-means partitioning, and Sierpinski partitioning.</p>
+  <p><em>3</em>. <i>Tour merging</i></p>
+  <p>LKH-2 provides a tour merging procedure that attempts to produce the best possible tour from two or more given tours using local optimization of an instance that includes all tour edges, and where edges common to the tours are fixed. Tours that are close to optimal typically share many common edges. Thus, the input graph for this instance is usually very sparse, which makes it practicable to use<i> k</i>-opt moves for rather large values of<i> k</i>.</p>
+  <p><em>4</em>. <i>Iterative partial transcription</i></p>
+  <p>Iterative partial description is a general procedure for improving the performance of a local search based heuristic algorithms. It attempts to improve two individual solutions by replacing certain parts of either solution by the related parts of the other solution. The procedure may be applied to the TSP by searching for subchains of two tours, which contains the same cities in a different order and have the same initial and final cities. LKH-2 uses the procedure on each locally optimal tour and the up to now best tour. The implemented algorithm is a simplified version of the algorithm described by M&ouml;bius, Freisleben, Merz and Schreiber.</p>
+  <p><em>5</em>. <i>Backbone-guided search</i></p>
+  <p>The edges of the tours produced by a fixed number of initial trials may be used as candidate edges in the succeeding trials. This algorithm, which is a simplified version of the algorithm given by Zhang and Looks, has turned out to be particularly effective for <a href="http://www.tsp.gatech.edu/vlsi/">VLSI instances</a>.</p>
+  <p><em>6</em>. <em>Data structures and algorithms for solving very large instances</em></p>
+  <p>Delaunay triangulation may be used to speed up the determination of alpha-nearest candidate edges, and tours may be represented internally by three-level trees. </p>
+  <p>New keywords:</p>
+  <blockquote>
+    <p class="style3"><span class="style9"><font align="left"> BACKBONE_TRIALS = &lt;integer&gt;<br>
+      BACKTRACKING = {YES | NO }</font><br>
+      CANDIDATE_SET_TYPE = {ALPHA | DELAUNAY [PURE ] | NEAREST-NEIGHBOR | QUADRANT }<br>
+      EXTRA_CANDIDATES = &lt;integer&gt; [SYMMETRIC ]<br>
+      EXTRA_CANDIDATE_SET_TYPE = {NEAREST-NEIGHBOR | QUADRANT }<br>
+      GAIN_CRITERION = {YES | NO }<br>
+      INITIAL_TOUR_ALGORITHM = {BORUVKA | GREEDY | NEAREST-NEIGHBOR | QUICK-BORUVKA | SIERPINSKI | WALK }<br>
+      INITIAL_TOUR_FRACTION = &lt;real in [0;1]&gt;<br>
+      KICKS = &lt;integer&gt;<br>
+      KICK_TYPE = &lt;integer&gt;<br>
+      MAX_BREADTH = &lt;integer&gt;<br>
+      MERGE_TOUR_FILE = &lt;string&gt;<br>
+      NONSEQUENTIAL_MOVE_TYPE = &lt;integer&gt;<br>
+      PATCHING_A = &lt;integer&gt; [RESTRICTED | EXTENDED ]<br>
+      PATCHING_C = &lt;integer&gt; [RESTRICTED | EXTENDED ]<br>
+      SUBPROBLEM_SIZE = &lt;integer&gt; [DELAUNAY | KARP | K-MEANS | ROHE | SIERPINSKI ] [COMPRESSED ] [BORDERS ]<br>
+      SUBPROBLEM_TOUR_FILE = &lt;string&gt;}<br>
+      SUBSEQUENT_MOVE_TYPE = &lt;integer&gt;<br>
+      SUBSEQUENT_PATCHING = {YES | NO }<br>
+      # &lt;string&gt;</span></p>
+  </blockquote>
+  <p>Removed keywords:</p>
+  <blockquote>
+    <p class="style8">BACKTRACK_MOVE_TYPE<br>
+      MERGE_TOUR_FILE_1<br>
+      MERGE_TOUR_FILE_2</p>
+  </blockquote>
+  <p>A short description of the parameters to LKH-2.0 may be found <a href="LKH-2.0/DOC/LKH-2.0_parameters.pdf">here</a>.</p>
+  <p><b>CHANGES IN VERSION 1.3</b>:</p>
+  <p>The distance type <span class="style6"><font face="Courier New,Courier,Monaco">GEOM</font></span> has been added (see <a href="http://www.tsp.gatech.edu/world/">http://www.tsp.gatech.edu/world/</a>).</p>
+  <p>Additional control information may now be given in the parameter file by means of the following keywords:</p>
+  <blockquote>
+    <p class="style8">BACKTRACK_MOVE_TYPE<br>
+      CANDIDATE_FILE<br>
+      INITIAL_TOUR_FILE<br>
+      MAX_SWAPS<br>
+      MERGE_TOUR_FILE_1<br>
+      MERGE_TOUR_FILE_2<br>
+      RESTRICTED_SEARCH</p>
+  </blockquote>
+  <p><b>CHANGES IN VERSION 1.2</b>:<br>
+    <br>
+    Execution times are measured more accurately, if the <span class="style9"><font face="Courier New,Courier,Monaco">getrusage</font></span> function is supported by the system.</p>
+  <p><b>CHANGES IN VERSION 1.1</b>:<br>
+    <br>
+    The code has been made more robust regarding the solution of asymmetric problems. The previous code could loose its way in some cases due to integer overflow.<br>
+  </p>
+  <p>
+    <center>
+      [<a href="http://www.akira.ruc.dk/%7ekeld">home</a>]
+    </center>
+  </p>
+</blockquote>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script> 
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7066845-3");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

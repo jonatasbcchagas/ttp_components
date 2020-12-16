@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /~keld/research/LKH/LKH-1.2/SRC</title>
+ </head>
+ <body>
+<h1>Index of /~keld/research/LKH/LKH-1.2/SRC</h1>
+  <table>
+   <tr><th valign="top"><img src="/icons/blank.gif" alt="[ICO]"></th><th><a href="?C=N;O=A">Name</a></th><th><a href="?C=M;O=A">Last modified</a></th><th><a href="?C=S;O=D">Size</a></th><th><a href="?C=D;O=A">Description</a></th></tr>
+   <tr><th colspan="5"><hr></th></tr>
+<tr><td valign="top"><img src="/icons/back.gif" alt="[PARENTDIR]"></td><td><a href="/~keld/research/LKH/LKH-1.2/">Parent Directory</a></td><td>&nbsp;</td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Heap.h">Heap.h</a></td><td align="right">2016-03-03 15:45  </td><td align="right">236 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="eprintf.c">eprintf.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">311 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Forbidden.c">Forbidden.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">432 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Make2OptMove.c">Make2OptMove.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">465 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="RecordBestTour.c">RecordBestTour.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">476 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="NormalizeNodeList.c">NormalizeNodeList.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">498 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Make3OptMove.c">Make3OptMove.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">524 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="RemoveFirstActive.c">RemoveFirstActive.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">558 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Exclude.c">Exclude.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">629 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Hashing.h">Hashing.h</a></td><td align="right">2016-03-03 15:45  </td><td align="right">691 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Excludable.c">Excludable.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">730 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="PrintBestTour.c">PrintBestTour.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">761 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Between.c">Between.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">864 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Activate.c">Activate.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">884 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="Makefile">Makefile</a></td><td align="right">2016-03-03 15:45  </td><td align="right">938 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="GetTime.c">GetTime.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">1.0K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="RestoreTour.c">RestoreTour.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">1.0K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="ReadLine.c">ReadLine.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">1.0K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="RecordBetterTour.c">RecordBetterTour.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">1.0K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="ResetCandidateSet.c">ResetCandidateSet.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">1.2K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Make4OptMove.c">Make4OptMove.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">1.2K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="PrintParameters.c">PrintParameters.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">1.3K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Between_SL.c">Between_SL.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">1.5K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="StoreTour.c">StoreTour.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">1.5K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="FindTour.c">FindTour.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">1.8K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Minimum1TreeCost.c">Minimum1TreeCost.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">1.8K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Segment.h">Segment.h</a></td><td align="right">2016-03-03 15:45  </td><td align="right">1.9K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Connect.c">Connect.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">2.0K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="AdjustCandidateSet.c">AdjustCandidateSet.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">2.1K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Hashing.c">Hashing.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">2.1K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Flip.c">Flip.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">2.4K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Heap.c">Heap.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">2.4K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="C.c">C.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">2.6K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="CreateCandidateSet.c">CreateCandidateSet.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">2.7K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Best2OptMove.c">Best2OptMove.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">3.0K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Distance.c">Distance.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">3.1K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="ChooseInitialTour.c">ChooseInitialTour.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">3.1K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="LinKernighan.c">LinKernighan.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">3.9K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="MinimumSpanningTree.c">MinimumSpanningTree.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">4.2K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="LKmain.c">LKmain.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">4.3K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Ascent.c">Ascent.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">5.1K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Best3OptMove.c">Best3OptMove.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">5.6K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="GenerateCandidates.c">GenerateCandidates.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">5.8K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Make5OptMove.c">Make5OptMove.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">8.6K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Flip_SL.c">Flip_SL.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">9.7K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="ReadParameters.c">ReadParameters.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right">9.9K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="BridgeGain.c">BridgeGain.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right"> 10K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Best4OptMove.c">Best4OptMove.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right"> 11K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Gain23.c">Gain23.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right"> 12K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="LK.h">LK.h</a></td><td align="right">2016-03-03 15:45  </td><td align="right"> 13K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="Best5OptMove.c">Best5OptMove.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right"> 32K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="ReadProblem.c">ReadProblem.c</a></td><td align="right">2016-03-03 15:45  </td><td align="right"> 39K</td><td>&nbsp;</td></tr>
+   <tr><th colspan="5"><hr></th></tr>
+</table>
+</body></html>

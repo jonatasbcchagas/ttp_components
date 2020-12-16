@@ -1,0 +1,17 @@
+WARNING: Large edge lengths in sparse graph
+Default Edge Length: 8388607
+CCtsp_solve_dat ...
+Set initial upperbound to 139777 (from tour)
+infeas_recover ...
+phase 1 addbad_variables
+LP is now feasible
+Recovered a feasible LP
+infeas_recover ...
+phase 1 addbad_variables
+LP is now feasible
+Recovered a feasible LP
+Exact lower bound: 139699.571117
+DIFF: 0.000001
+LOWER BOUND: 139699.571118   ACTIVE NODES: 1
+
+Task 0: Branching on node 0

@@ -1,0 +1,10 @@
+WARNING: Large edge lengths in sparse graph
+Default Edge Length: 8388607
+CCtsp_solve_dat ...
+Set initial upperbound to 378761 (from tour)
+Upperbound from x-heuristic: 378749.00
+Exact lower bound: 378749.000000
+DIFF: 0.000000
+Established Bound: 378749
+Optimal tour: 378749
+Total Time to solve TSP: 118.13

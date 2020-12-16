@@ -1,0 +1,46 @@
+WARNING: Large edge lengths in sparse graph
+Default Edge Length: 8388607
+CCtsp_solve_dat ...
+Set initial upperbound to 81404 (from tour)
+WARNING: Adding an empty cut to the LP
+WARNING: Adding an empty cut to the LP
+WARNING: Adding an empty cut to the LP
+WARNING: Adding an empty cut to the LP
+WARNING: Adding an empty cut to the LP
+WARNING: Adding an empty cut to the LP
+WARNING: Adding an empty cut to the LP
+WARNING: Adding an empty cut to the LP
+WARNING: Adding an empty cut to the LP
+WARNING: Adding an empty cut to the LP
+WARNING: Adding an empty cut to the LP
+WARNING: Adding an empty cut to the LP
+WARNING: Adding an empty cut to the LP
+infeas_recover ...
+phase 1 addbad_variables
+LP is now feasible
+Recovered a feasible LP
+WARNING: Adding an empty cut to the LP
+WARNING: Adding an empty cut to the LP
+WARNING: Adding an empty cut to the LP
+infeas_recover ...
+phase 1 addbad_variables
+LP is now feasible
+Recovered a feasible LP
+infeas_recover ...
+phase 1 addbad_variables
+LP is now feasible
+Recovered a feasible LP
+Exact lower bound: 81068.328892
+DIFF: 0.000005
+LOWER BOUND: 81068.328897   ACTIVE NODES: 1
+
+Task 0: Branching on node 0
+BBnode 0 split into 1 (81069.44) 2 (81069.82) (1514.10 seconds)
+LOWER BOUND: 81069.440110   ACTIVE NODES: 2
+
+Task 1: Cutting on node 1
+Writing Pool: 33572 cuts
+BBnode 1 (now 3) done cutting: lowerbound 81141.25 (100505.47 seconds)
+LOWER BOUND: 81069.822809   ACTIVE NODES: 2
+
+Task 2: Cutting on node 2

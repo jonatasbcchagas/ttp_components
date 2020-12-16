@@ -1,0 +1,52 @@
+LKH is an implementation of the Lin-Kernighan traveling salesman heuristic.
+
+The code is distributed for research use. The author reserves all rights to the code.
+
+
+INSTRUCTIONS FOR INSTALLATION:  (Version 1.2 - August 2001)
+
+The software is available in two formats:
+
+			        LKH-1.2.tgz		(gzipped tar file, â 5.9 MB)
+			        LKH-1.2.sit		 (StuffIt archive, â 4.5 MB )
+
+If a UNIX machine is used, download the software in the first format. Next execute the following UNIX commands:
+
+			        gzip -d LKH-1.2.tgz
+			  	  tar xvf LKH-1.2.tar
+			     cd LKH-1.2 
+			     make
+
+An executable file called LKH.UNIX is now available in the directory LKH-1.2.
+
+If a MacOS or a Windows machine is used, download the software in the second format. Next unstuff it with Stuffit ExpanderÅ (freeware available at http://www.aladdinsys.com). 
+
+To test the installation run the LKH program (LKH.UNIX on a UNIX machine, LKH.Mac on a MacOS machine and LKH.Win on a Windows machine).
+
+The program asks for a filename
+
+			PARAMETER_FILE =
+
+On a MacOS machine type Par.Mac 
+On a Windows machine type Par.Win 
+On a UNIX machine type Par.UNIX 
+Then press return.
+
+The program should now solve a problem with 532 cities.
+
+For further instructions, see the LKH User Guide in the DOC directory.
+
+
+CHANGES IN VERSION 1.1:
+
+The code has been made more robust regarding the solution of asymmetric problems. The old code (LKH-1.0, February 1999) could loose its way in some cases due to integer overflow. 
+
+CHANGES IN VERSION 1.2:
+
+Execution times may be measured more accurately, if the getrusage function is supported by the system. See the GetTime.c file for instructions.
+
+
+													
+
+
+

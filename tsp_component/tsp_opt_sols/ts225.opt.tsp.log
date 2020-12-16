@@ -1,0 +1,8 @@
+Default Edge Length: 3818700
+CCtsp_solve_dat ...
+Set initial upperbound to 126666 (from tour)
+Exact lower bound: 126666.000000
+DIFF: 0.000000
+Established Bound: 126666
+Optimal tour: 126666
+Total Time to solve TSP: 9.73

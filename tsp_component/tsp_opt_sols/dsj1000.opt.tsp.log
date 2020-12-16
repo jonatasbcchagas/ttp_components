@@ -1,0 +1,64 @@
+WARNING: Large edge lengths in sparse graph
+Default Edge Length: 8388607
+CCtsp_solve_dat ...
+Set initial upperbound to 18660188 (from tour)
+infeas_recover ...
+phase 1 addbad_variables
+LP is now feasible
+Recovered a feasible LP
+WARNING: Adding an empty cut to the LP
+infeas_recover ...
+phase 1 addbad_variables
+LP is now feasible
+Recovered a feasible LP
+Exact lower bound: 18653726.380091
+DIFF: 0.000000
+LOWER BOUND: 18653726.380091   ACTIVE NODES: 1
+
+Task 0: Branching on node 0
+BBnode 0 split into 1 (18653730.34) 2 (18663548.93X) (0.53 seconds)
+Child 1 is pruned
+LOWER BOUND: 18653730.338472   ACTIVE NODES: 1
+
+Task 1: Cutting on node 1
+Writing Pool: 1466 cuts
+BBnode 1 (now 3) done cutting: lowerbound 18656037.93 (7.91 seconds)
+LOWER BOUND: 18656037.926887   ACTIVE NODES: 1
+
+Task 2: Branching on node 3
+BBnode 3 split into 4 (18657277.86) 5 (18656985.87) (0.90 seconds)
+LOWER BOUND: 18656985.865679   ACTIVE NODES: 2
+
+Task 3: Cutting on node 5
+Writing Pool: 1721 cuts
+BBnode 5 (now 6) done cutting: lowerbound 18659593.95 (12.15 seconds)
+LOWER BOUND: 18657277.858400   ACTIVE NODES: 2
+
+Task 4: Cutting on node 4
+Writing Pool: 1782 cuts
+BBnode 4 (now 7) can be pruned: upperbound 18660188.00 (2.56 seconds)
+LOWER BOUND: 18659593.954510   ACTIVE NODES: 1
+
+Task 5: Branching on node 6
+BBnode 6 split into 8 (18659995.99) 9 (18659938.42) (0.88 seconds)
+LOWER BOUND: 18659938.419524   ACTIVE NODES: 2
+
+Task 6: Cutting on node 9
+Writing Pool: 1782 cuts
+BBnode 9 (now 10) done cutting: lowerbound 18660141.34 (2.30 seconds)
+LOWER BOUND: 18659995.986872   ACTIVE NODES: 2
+
+Task 7: Cutting on node 8
+Writing Pool: 1844 cuts
+BBnode 8 (now 11) can be pruned: upperbound 18660188.00 (0.43 seconds)
+LOWER BOUND: 18660141.344444   ACTIVE NODES: 1
+
+Task 8: Branching on node 10
+BBnode 10 split into 12 (18660188.00X) 13 (18661350.00X) (0.24 seconds)
+Child 0 is pruned
+Child 1 is pruned
+
+Task 9: Exit
+Total number of nodes in search tree: 9
+Optimal tour: 18660188
+Total Time to solve TSP: 40.23

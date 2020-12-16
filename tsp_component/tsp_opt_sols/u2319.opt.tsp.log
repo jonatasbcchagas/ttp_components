@@ -1,0 +1,75 @@
+WARNING: Large edge lengths in sparse graph
+Default Edge Length: 8388607
+CCtsp_solve_dat ...
+Set initial upperbound to 234288 (from tour)
+Exact lower bound: 234246.000000
+DIFF: 0.000000
+LOWER BOUND: 234246.000000   ACTIVE NODES: 1
+
+Task 0: Branching on node 0
+BBnode 0 split into 1 (234246.00) 2 (234246.00) (0.66 seconds)
+LOWER BOUND: 234246.000000   ACTIVE NODES: 2
+
+Task 1: Cutting on node 2
+Writing Pool: 0 cuts
+BBnode 2 (now 3) done cutting: lowerbound 234246.00 (76.02 seconds)
+LOWER BOUND: 234246.000000   ACTIVE NODES: 2
+
+Task 2: Branching on node 3
+infeas_recover ...
+phase 1 addbad_variables
+Could not recover a feasible LP
+Branched-LP is infeasible
+phase 1 pricing
+Problem is shown to be infeasible
+BBnode 3 split into 4 (1000000000000000019884624838656.00X) 5 (234246.00) (2.61 seconds)
+Child 0 is infeasible
+LOWER BOUND: 234246.000000   ACTIVE NODES: 2
+
+Task 3: Cutting on node 5
+infeas_recover ...
+phase 1 addbad_variables
+Could not recover a feasible LP
+LP is really infeasible (processs_cuts)
+LP is infeasible in cutting_loop
+Cut LP is reported to be infeasible
+phase 1 pricing
+Problem is shown to be infeasible
+verified infeasible LP
+Writing Pool: 0 cuts
+BBnode 5 (now 6) can be pruned: upperbound 234288.00 (1.76 seconds)
+LOWER BOUND: 234246.000000   ACTIVE NODES: 1
+
+Task 4: Cutting on node 1
+Writing Pool: 0 cuts
+BBnode 1 (now 7) done cutting: lowerbound 234246.00 (50.76 seconds)
+LOWER BOUND: 234246.000000   ACTIVE NODES: 1
+
+Task 5: Branching on node 7
+infeas_recover ...
+phase 1 addbad_variables
+Could not recover a feasible LP
+Branched-LP is infeasible
+phase 1 pricing
+Problem is shown to be infeasible
+BBnode 7 split into 8 (234246.00) 9 (1000000000000000019884624838656.00X) (2.55 seconds)
+Child 1 is infeasible
+LOWER BOUND: 234246.000000   ACTIVE NODES: 1
+
+Task 6: Cutting on node 8
+infeas_recover ...
+phase 1 addbad_variables
+Could not recover a feasible LP
+LP is really infeasible (processs_cuts)
+LP is infeasible in cutting_loop
+Cut LP is reported to be infeasible
+phase 1 pricing
+Problem is shown to be infeasible
+verified infeasible LP
+Writing Pool: 0 cuts
+BBnode 8 (now 10) can be pruned: upperbound 234288.00 (1.26 seconds)
+
+Task 7: Exit
+Total number of nodes in search tree: 7
+Optimal tour: 234288
+Total Time to solve TSP: 217.61

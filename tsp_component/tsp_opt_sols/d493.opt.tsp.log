@@ -1,0 +1,113 @@
+Default Edge Length: 2118421
+CCtsp_solve_dat ...
+Set initial upperbound to 35243 (from tour)
+WARNING: Adding an empty cut to the LP
+WARNING: Adding an empty cut to the LP
+infeas_recover ...
+phase 1 addbad_variables
+LP is now feasible
+Recovered a feasible LP
+infeas_recover ...
+phase 1 addbad_variables
+LP is now feasible
+Recovered a feasible LP
+infeas_recover ...
+phase 1 addbad_variables
+LP is now feasible
+Recovered a feasible LP
+Exact lower bound: 35219.815031
+DIFF: 0.000000
+LOWER BOUND: 35219.815031   ACTIVE NODES: 1
+
+Task 0: Branching on node 0
+BBnode 0 split into 1 (35222.10) 2 (35222.52) (0.38 seconds)
+LOWER BOUND: 35222.101300   ACTIVE NODES: 2
+
+Task 1: Cutting on node 1
+New upperbound from x-heuristic: 35237.00
+TOUR FOUND - upperbound is 35237.00
+Writing Pool: 970 cuts
+BBnode 1 (now 3) done cutting: lowerbound 35226.56 (4.97 seconds)
+LOWER BOUND: 35222.520859   ACTIVE NODES: 2
+
+Task 2: Cutting on node 2
+Writing Pool: 1168 cuts
+BBnode 2 (now 4) done cutting: lowerbound 35231.05 (3.94 seconds)
+LOWER BOUND: 35226.556159   ACTIVE NODES: 2
+
+Task 3: Branching on node 3
+BBnode 3 split into 5 (35227.53) 6 (35230.96) (0.48 seconds)
+LOWER BOUND: 35227.527177   ACTIVE NODES: 3
+
+Task 4: Cutting on node 5
+Writing Pool: 1200 cuts
+BBnode 5 (now 7) done cutting: lowerbound 35228.68 (1.30 seconds)
+LOWER BOUND: 35228.680000   ACTIVE NODES: 3
+
+Task 5: Branching on node 7
+BBnode 7 split into 8 (35229.21) 9 (35229.78) (0.44 seconds)
+LOWER BOUND: 35229.210366   ACTIVE NODES: 4
+
+Task 6: Cutting on node 8
+New upperbound from x-heuristic: 35236.00
+TOUR FOUND - upperbound is 35236.00
+Writing Pool: 1211 cuts
+BBnode 8 (now 10) done cutting: lowerbound 35229.64 (0.71 seconds)
+LOWER BOUND: 35229.640000   ACTIVE NODES: 4
+
+Task 7: Branching on node 10
+BBnode 10 split into 11 (35230.67) 12 (35230.40) (0.34 seconds)
+LOWER BOUND: 35229.782609   ACTIVE NODES: 5
+
+Task 8: Cutting on node 9
+New upperbound from x-heuristic: 35232.00
+TOUR FOUND - upperbound is 35232.00
+Writing Pool: 1238 cuts
+BBnode 9 (now 13) done cutting: lowerbound 35230.75 (1.15 seconds)
+LOWER BOUND: 35230.404762   ACTIVE NODES: 5
+
+Task 9: Cutting on node 12
+Writing Pool: 1265 cuts
+BBnode 12 (now 14) can be pruned: upperbound 35232.00 (0.61 seconds)
+LOWER BOUND: 35230.666667   ACTIVE NODES: 4
+
+Task 10: Cutting on node 11
+Writing Pool: 1273 cuts
+BBnode 11 (now 15) can be pruned: upperbound 35232.00 (0.14 seconds)
+LOWER BOUND: 35230.750000   ACTIVE NODES: 3
+
+Task 11: Branching on node 13
+BBnode 13 split into 16 (35231.00) 17 (35231.33X) (0.16 seconds)
+Child 1 is pruned
+LOWER BOUND: 35230.964220   ACTIVE NODES: 3
+
+Task 12: Cutting on node 6
+Writing Pool: 1292 cuts
+BBnode 6 (now 18) can be pruned: upperbound 35232.00 (0.14 seconds)
+LOWER BOUND: 35231.000000   ACTIVE NODES: 2
+
+Task 13: Cutting on node 16
+Writing Pool: 1292 cuts
+BBnode 16 (now 19) done cutting: lowerbound 35231.00 (0.41 seconds)
+LOWER BOUND: 35231.000000   ACTIVE NODES: 2
+
+Task 14: Branching on node 19
+BBnode 19 split into 20 (35232.00X) 21 (35231.00) (0.14 seconds)
+Child 0 is pruned
+LOWER BOUND: 35231.000000   ACTIVE NODES: 2
+
+Task 15: Cutting on node 21
+New upperbound from x-heuristic: 35231.00
+TOUR FOUND - upperbound is 35231.00
+Writing Pool: 1292 cuts
+BBnode 21 (now 22) can be pruned: upperbound 35231.00 (0.13 seconds)
+LOWER BOUND: 35231.048077   ACTIVE NODES: 1
+
+Task 16: Branching on node 4
+Do not branch, the lp is within 1.0 of the upperbound
+BBnode 4 is pruned - no branching (0.00 seconds)
+
+Task 17: Exit
+Total number of nodes in search tree: 13
+Optimal tour: 35231
+Total Time to solve TSP: 23.80

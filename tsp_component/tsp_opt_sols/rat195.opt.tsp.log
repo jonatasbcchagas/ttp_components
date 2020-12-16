@@ -1,0 +1,58 @@
+Default Edge Length: 59670
+CCtsp_solve_dat ...
+Set initial upperbound to 2446 (from tour)
+Exact lower bound: 2440.017857
+DIFF: 0.000000
+LOWER BOUND: 2440.017857   ACTIVE NODES: 1
+
+Task 0: Branching on node 0
+BBnode 0 split into 1 (2442.20) 2 (2441.51) (0.17 seconds)
+LOWER BOUND: 2441.514706   ACTIVE NODES: 2
+
+Task 1: Cutting on node 2
+Writing Pool: 310 cuts
+BBnode 2 (now 3) done cutting: lowerbound 2441.69 (1.88 seconds)
+LOWER BOUND: 2441.688702   ACTIVE NODES: 2
+
+Task 2: Branching on node 3
+BBnode 3 split into 4 (2446.55X) 5 (2443.08) (0.19 seconds)
+Child 0 is pruned
+LOWER BOUND: 2442.199020   ACTIVE NODES: 2
+
+Task 3: Cutting on node 1
+Writing Pool: 344 cuts
+BBnode 1 (now 6) done cutting: lowerbound 2443.60 (0.80 seconds)
+LOWER BOUND: 2443.076389   ACTIVE NODES: 2
+
+Task 4: Cutting on node 5
+Writing Pool: 402 cuts
+BBnode 5 (now 7) done cutting: lowerbound 2444.11 (1.71 seconds)
+LOWER BOUND: 2443.598739   ACTIVE NODES: 2
+
+Task 5: Branching on node 6
+BBnode 6 split into 8 (2444.75) 9 (2445.07) (0.22 seconds)
+LOWER BOUND: 2444.113971   ACTIVE NODES: 3
+
+Task 6: Branching on node 7
+BBnode 7 split into 10 (2445.50X) 11 (2444.56) (0.23 seconds)
+Child 0 is pruned
+LOWER BOUND: 2444.563636   ACTIVE NODES: 3
+
+Task 7: Cutting on node 11
+Writing Pool: 426 cuts
+BBnode 11 (now 12) can be pruned: upperbound 2446.00 (0.48 seconds)
+LOWER BOUND: 2444.748466   ACTIVE NODES: 2
+
+Task 8: Cutting on node 8
+Writing Pool: 440 cuts
+BBnode 8 (now 13) can be pruned: upperbound 2446.00 (0.06 seconds)
+LOWER BOUND: 2445.070000   ACTIVE NODES: 1
+
+Task 9: Cutting on node 9
+Writing Pool: 454 cuts
+BBnode 9 (now 14) can be pruned: upperbound 2446.00 (0.06 seconds)
+
+Task 10: Exit
+Total number of nodes in search tree: 9
+Optimal tour: 2446
+Total Time to solve TSP: 10.28

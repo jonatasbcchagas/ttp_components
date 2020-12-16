@@ -1,0 +1,35 @@
+Default Edge Length: 843876
+CCtsp_solve_dat ...
+Set initial upperbound to 15902 (from tour)
+WARNING: Adding an empty cut to the LP
+infeas_recover ...
+phase 1 addbad_variables
+LP is now feasible
+Recovered a feasible LP
+infeas_recover ...
+phase 1 addbad_variables
+LP is now feasible
+Recovered a feasible LP
+Exact lower bound: 15891.142857
+DIFF: 0.000000
+LOWER BOUND: 15891.142857   ACTIVE NODES: 1
+
+Task 0: Branching on node 0
+BBnode 0 split into 1 (15895.00) 2 (15894.71) (0.06 seconds)
+LOWER BOUND: 15894.714286   ACTIVE NODES: 2
+
+Task 1: Cutting on node 2
+Writing Pool: 144 cuts
+BBnode 2 (now 3) can be pruned: upperbound 15902.00 (0.04 seconds)
+LOWER BOUND: 15895.000000   ACTIVE NODES: 1
+
+Task 2: Cutting on node 1
+New upperbound from x-heuristic: 15901.00
+TOUR FOUND - upperbound is 15901.00
+Writing Pool: 163 cuts
+BBnode 1 (now 4) can be pruned: upperbound 15901.00 (0.72 seconds)
+
+Task 3: Exit
+Total number of nodes in search tree: 3
+Optimal tour: 15901
+Total Time to solve TSP: 1.93

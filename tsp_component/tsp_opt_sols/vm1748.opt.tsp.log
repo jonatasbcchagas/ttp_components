@@ -1,0 +1,143 @@
+WARNING: Large edge lengths in sparse graph
+Default Edge Length: 8388607
+CCtsp_solve_dat ...
+Set initial upperbound to 336981 (from tour)
+infeas_recover ...
+phase 1 addbad_variables
+LP is now feasible
+Recovered a feasible LP
+infeas_recover ...
+phase 1 addbad_variables
+LP is now feasible
+Recovered a feasible LP
+Exact lower bound: 336821.385866
+DIFF: 0.000001
+LOWER BOUND: 336821.385866   ACTIVE NODES: 1
+
+Task 0: Branching on node 0
+BBnode 0 split into 1 (336830.24) 2 (336835.86) (3.23 seconds)
+LOWER BOUND: 336830.243512   ACTIVE NODES: 2
+
+Task 1: Cutting on node 1
+Writing Pool: 3949 cuts
+BBnode 1 (now 3) done cutting: lowerbound 336913.10 (50.99 seconds)
+LOWER BOUND: 336835.856935   ACTIVE NODES: 2
+
+Task 2: Cutting on node 2
+Writing Pool: 4750 cuts
+BBnode 2 (now 4) done cutting: lowerbound 336919.08 (44.67 seconds)
+LOWER BOUND: 336913.096725   ACTIVE NODES: 2
+
+Task 3: Branching on node 3
+BBnode 3 split into 5 (336930.81) 6 (336926.13) (3.52 seconds)
+LOWER BOUND: 336919.077106   ACTIVE NODES: 3
+
+Task 4: Branching on node 4
+BBnode 4 split into 7 (336922.89) 8 (336923.58) (4.11 seconds)
+LOWER BOUND: 336922.889954   ACTIVE NODES: 4
+
+Task 5: Cutting on node 7
+Writing Pool: 4882 cuts
+BBnode 7 (now 9) done cutting: lowerbound 336925.77 (18.08 seconds)
+LOWER BOUND: 336923.581908   ACTIVE NODES: 4
+
+Task 6: Cutting on node 8
+Writing Pool: 5202 cuts
+BBnode 8 (now 10) done cutting: lowerbound 336939.72 (34.02 seconds)
+LOWER BOUND: 336925.772712   ACTIVE NODES: 4
+
+Task 7: Branching on node 9
+BBnode 9 split into 11 (336926.68) 12 (336939.04) (5.46 seconds)
+LOWER BOUND: 336926.130981   ACTIVE NODES: 5
+
+Task 8: Cutting on node 6
+Writing Pool: 5321 cuts
+BBnode 6 (now 13) done cutting: lowerbound 336954.09 (14.03 seconds)
+LOWER BOUND: 336926.682301   ACTIVE NODES: 5
+
+Task 9: Cutting on node 11
+Writing Pool: 5680 cuts
+BBnode 11 (now 14) done cutting: lowerbound 336952.57 (25.13 seconds)
+LOWER BOUND: 336930.805687   ACTIVE NODES: 5
+
+Task 10: Cutting on node 5
+Writing Pool: 5898 cuts
+BBnode 5 (now 15) can be pruned: upperbound 336981.00 (24.57 seconds)
+LOWER BOUND: 336939.041943   ACTIVE NODES: 4
+
+Task 11: Cutting on node 12
+Writing Pool: 6103 cuts
+BBnode 12 (now 16) done cutting: lowerbound 336974.47 (22.24 seconds)
+LOWER BOUND: 336939.719537   ACTIVE NODES: 4
+
+Task 12: Branching on node 10
+BBnode 10 split into 17 (336947.82) 18 (336955.80) (3.75 seconds)
+LOWER BOUND: 336947.817505   ACTIVE NODES: 5
+
+Task 13: Cutting on node 17
+Writing Pool: 6323 cuts
+BBnode 17 (now 19) done cutting: lowerbound 336973.23 (11.68 seconds)
+LOWER BOUND: 336952.572453   ACTIVE NODES: 5
+
+Task 14: Branching on node 14
+BBnode 14 split into 20 (336965.17) 21 (336966.97) (4.43 seconds)
+LOWER BOUND: 336954.088723   ACTIVE NODES: 6
+
+Task 15: Branching on node 13
+BBnode 13 split into 22 (336959.95) 23 (336959.70) (3.96 seconds)
+LOWER BOUND: 336955.798605   ACTIVE NODES: 7
+
+Task 16: Cutting on node 18
+Writing Pool: 6368 cuts
+BBnode 18 (now 24) can be pruned: upperbound 336981.00 (1.31 seconds)
+LOWER BOUND: 336959.698247   ACTIVE NODES: 6
+
+Task 17: Cutting on node 23
+Writing Pool: 6414 cuts
+BBnode 23 (now 25) done cutting: lowerbound 336965.20 (12.78 seconds)
+LOWER BOUND: 336959.950528   ACTIVE NODES: 6
+
+Task 18: Cutting on node 22
+Writing Pool: 6448 cuts
+BBnode 22 (now 26) can be pruned: upperbound 336981.00 (1.28 seconds)
+LOWER BOUND: 336965.170010   ACTIVE NODES: 5
+
+Task 19: Cutting on node 20
+Writing Pool: 6502 cuts
+BBnode 20 (now 27) can be pruned: upperbound 336981.00 (2.31 seconds)
+LOWER BOUND: 336965.195892   ACTIVE NODES: 4
+
+Task 20: Branching on node 25
+BBnode 25 split into 28 (336980.00) 29 (336979.78) (4.02 seconds)
+LOWER BOUND: 336966.967634   ACTIVE NODES: 5
+
+Task 21: Cutting on node 21
+Writing Pool: 6514 cuts
+BBnode 21 (now 30) can be pruned: upperbound 336981.00 (1.51 seconds)
+LOWER BOUND: 336973.230783   ACTIVE NODES: 4
+
+Task 22: Branching on node 19
+BBnode 19 split into 31 (336981.94X) 32 (336998.77X) (4.05 seconds)
+Child 0 is pruned
+Child 1 is pruned
+LOWER BOUND: 336974.468723   ACTIVE NODES: 3
+
+Task 23: Branching on node 16
+BBnode 16 split into 33 (336997.37X) 34 (336981.67X) (3.11 seconds)
+Child 0 is pruned
+Child 1 is pruned
+LOWER BOUND: 336979.779114   ACTIVE NODES: 2
+
+Task 24: Cutting on node 29
+Writing Pool: 6594 cuts
+BBnode 29 (now 35) can be pruned: upperbound 336981.00 (1.20 seconds)
+LOWER BOUND: 336980.000632   ACTIVE NODES: 1
+
+Task 25: Cutting on node 28
+Writing Pool: 6635 cuts
+BBnode 28 (now 36) can be pruned: upperbound 336981.00 (1.33 seconds)
+
+Task 26: Exit
+Total number of nodes in search tree: 21
+Optimal tour: 336981
+Total Time to solve TSP: 344.96
