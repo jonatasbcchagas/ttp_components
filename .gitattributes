@@ -1,2 +1,4 @@
 *.PS linguist-vendored
 *.PS linguist-detectable=false
+*.html linguist-vendored
+*.html linguist-detectable=false
