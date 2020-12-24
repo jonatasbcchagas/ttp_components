@@ -1,0 +1,2 @@
+*.PS linguist-vendored
+*.PS linguist-detectable=false
